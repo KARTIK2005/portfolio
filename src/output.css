@@ -334,6 +334,15 @@
   .w-36 {
     width: calc(var(--spacing) * 36);
   }
+  .w-\[\%\] {
+    width: %;
+  }
+  .w-\[30\%\] {
+    width: 30%;
+  }
+  .w-\[30\] {
+    width: 30;
+  }
   .w-\[33\%\] {
     width: 33%;
   }
@@ -348,6 +357,15 @@
   }
   .w-\[40\%\] {
     width: 40%;
+  }
+  .w-\[50\%\] {
+    width: 50%;
+  }
+  .w-\[60\%\] {
+    width: 60%;
+  }
+  .w-\[70\%\] {
+    width: 70%;
   }
   .w-\[75\%\] {
     width: 75%;
@@ -801,9 +819,19 @@
       height: 50px;
     }
   }
+  .md\:w-\[3\%\] {
+    @media (width >= 48rem) {
+      width: 3%;
+    }
+  }
   .md\:w-\[28\%\] {
     @media (width >= 48rem) {
       width: 28%;
+    }
+  }
+  .md\:w-\[30\%\] {
+    @media (width >= 48rem) {
+      width: 30%;
     }
   }
   .md\:w-\[42\%\] {
