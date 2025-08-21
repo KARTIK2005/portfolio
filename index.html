@@ -12,6 +12,9 @@
   #scroller::-webkit-scrollbar {
     display: none;
   }
+  #scroller1::-webkit-scrollbar {
+    display: none;
+  }
   </style>
 </head>
 
@@ -48,7 +51,8 @@
     </div>
   </div>
   <!-- scroller -->
-  <div id="scroller" class="h-[160px] bg-[#ffffff] flex items-center overflow-x-auto whitespace-nowrap scroll-smooth">
+  <div id="scroller" class="h-[160px] bg-[#ffffff] flex items-center overflow-x-auto whitespace-nowrap scroll-smooth relative">
+    <div id="scroll-content" class="flex items-center">
   <div class="bg-[url(/html.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
   <div class="bg-[url(/css-3.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
   <div class="bg-[url(/htm.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
@@ -58,7 +62,7 @@
   <div class="bg-[url(/css-3.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
   <div class="bg-[url(/htm.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
   <div class="bg-[url(/js.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
-  <div class="bg-[url(/react.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/react.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div></div>
 </div>
 
   <!-- words section screen3 -->
@@ -150,7 +154,19 @@
     </div>
   </div>
   <!-- scroller -->
-  <div class="h-[150px] bg-[#7ebcfa]"></div>
+  <div id="scroller1" class="h-[160px] bg-[#ffffff] flex items-center overflow-x-auto whitespace-nowrap scroll-smooth relative">
+    <div id="scroll-content1" class="flex items-center">
+  <div class="bg-[url(/html.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/css-3.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/htm.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/js.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/react.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div> 
+  <div class="bg-[url(/html.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/css-3.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/htm.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/js.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div>
+  <div class="bg-[url(/react.png)] w-[150px] h-[100px] bg-contain bg-no-repeat bg-center mx-4 shrink-0"></div></div>
+</div>
   <!-- footer -->
   <footer class="h-[450px]  bg-black flex flex-col items-center gap-2.5">
     
